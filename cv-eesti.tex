@@ -1,0 +1,269 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{} 
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Tavo}{Annus}{ % Your name
+\urlstyle{same}\url{https://www.linkedin.com/in/tavo-annus-4a5631171/} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:tavo.annus@gmail.com}{tavo.annus@gmail.com} | 566 188 92 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Haridus} 
+
+\subsection{TalTech}
+
+\descript{MSc Informaatika}
+\location{Juuni 2024}
+Cum Laude \\
+\location{Keskime hinne: 5.0/5.0}
+
+\sectionspace % Some whitespace after the section
+
+\descript{BSc Informaatika}
+\location{Juuni 2021}
+Cum Laude \\
+\location{Keskmine hinne: 5.0/5.0}
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Tallinna Reaalkool}
+
+\location{Juuni 2018 | Tallinn}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Lingid} 
+
+Github:// \href{https://github.com/kilpkonn}{\bf kilpkonn} \\
+LinkedIn:// \href{https://www.linkedin.com/in/tavo-annus-4a5631171/}{\bf tavo-annus} \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Skills
+%------------------------------------------------
+
+\section{Oskused}
+
+\subsection{Keeled}
+
+Eesti keel - emakeel \\
+Inglise keel - C1 \\
+Vene keel - Baas tase \\
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Juhiload}
+
+B - kategooria \\
+Väikelaeva juhiload \\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Arvuti oskused}
+
+\location{Linux kasutaja}
+\location{IDE}
+Neovim \textbullet{} CLion/IntelliJ \textbullet{} VSCode \\
+
+\sectionspace
+
+\descript{Programeerimise keeled}
+\location{Kõrge tase}
+Rust \textbullet{} C++ \textbullet{} Python \textbullet{} Java \\
+\location{Baas tase}
+Kotlin \textbullet{} GO \textbullet{} Idris2 \textbullet{} C\# \textbullet{} F\# \textbullet{} R \\
+TypeScript \textbullet{} Prolog \textbullet{} Docker \textbullet{} MATLAB
+
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Kogemus}
+
+\runsubsection{Milrem Robotics}
+\descript{| Vanem tarkvaraarenduse insener}
+
+\location{Juuli 2020 – ... | Tallinn, Eesti}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+  \item THeMIS UGV platvormi tarkvara arendus ja kontroll süsteemid (generaator).
+  \item Välise liidese peamine disainija.
+  \item Testide automatiseerimine, CI/CD.
+  \item Klientide konsultatsioon.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{TalTech}
+\descript{| Abiõppejõud}
+
+\location{September 2019 – Jaanuar 2023 | Tallinn, Eesti}
+\begin{tightitemize}
+\item Ülesannete koostamine ja tudengite abistamine Python, Java ja algoritmite kursustel.
+\item Tudengite abistamine robootika kursusel.
+\item Tudengite mentor veebi arenduse ja mängude loomise ainetes.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Muu}
+\descript{| Vabavara arendus}
+
+\begin{tightitemize}
+  \item \textbf{\href{https://github.com/rust-lang/rust-analyzer}{rust-analyzer}} - Lisasin avaldise otsingu (automatic proof search) võimekuse Rust programeerimise keele tööriistadele.
+  \item \textbf{\href{https://github.com/kilpkonn/neowatch}{neowatch}} - Kirjutasin modernse alternatiivi Linux \textit{watch} käsule.
+  \item \textbf{\href{https://github.com/DEVELOPEST}{gtm}} - Üks vabavaralise aja jälgimise rakenduse autoritest \textit(sarnante wakatime-le).
+  \item \textbf{\href{https://github.com/kilpkonn/LonePlayer}{LonePlayer}} - Üks 2D platformer mängu autoritest.
+  \item \textbf{\href{https://github.com/kilpkonn/GomokuGUI}{GomokuGUI}} - Kirjutasin Gomoku mängu AI strateegiate arenduseks. \textit{(TalTech kasutab seda Java kursusel)}.
+  \item \textbf{\href{https://veloren.net/}{veloren}} - Parandasin kaamera liikumist ja muid väiksemaid vigu.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+
+\section{Teadustöö}
+
+\runsubsection{TalTech Loogika- ja Semantika groupp}
+\descript{| MSc tudeng}
+
+\location{September 2023 – Juuni 2024 | Eesti}
+Arendasin automaatse avaldise otsingu funktsionaalsuse programeerimiskeelele Rust koos juhendaja \textbf{\href{https://taltech.ee/en/contacts/philipp-joram}{Philipp Joram}}-iga. Teadusartikkel on leitav \cite{term-search-in-rust}.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+% \runsubsection{Cornell Phonetics Lab}
+% \descript{| Head Undergraduate Researcher}
+%
+% \location{Mar 2012 – May 2013 | Ithaca, NY}
+% Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+%
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Awards
+%------------------------------------------------
+
+% \section{Awards} 
+%
+% \begin{tabular}{rll}
+% 2020 & 3\textsuperscript{rd}/30 & NCPC Qualification (Estonia) \\
+% 2018 & 8\textsuperscript{th} & Physics Olympiad Natianal contest \\
+% 2016 & 1\textsuperscript{st} & Physics Open (Natianal contest) \\
+% \end{tabular}
+%
+% \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Hobbies
+%------------------------------------------------
+
+\section{Hobid} 
+
+Purjetamine - Eesti meister \\ 
+Sport üldiselt, Investeerimine, \\
+Vabavara arendus, \\
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\section{Publikatsioonid} 
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE (EXAMPLE)
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+%\section{Example Section}
+
+%\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
