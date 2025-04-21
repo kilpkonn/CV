@@ -20,3 +20,7 @@
   type: [Personal Interests],
   info: [Sailing / Sports in general #hBar() Psychology #hBar() Investing #hBar() Open Source contributing],
 )
+#cvSkill(
+  type: [Driver licences],
+  info: [B #hBar() BE #hBar() C #hBar() CE #hBar() T],
+)
