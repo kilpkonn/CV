@@ -8,6 +8,18 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
+  title: [Software Developer],
+  society: [Pikker Technology],
+  logo: image("../src/logos/pikker.jpg"),
+  date: [2025 - Present],
+  location: [Tallinn, Estonia],
+  description: list(
+    [In charge of full-stack solution for tracking courses for Ettevõtluskeskus],
+  ),
+  tags: ("Kotlin", "Svelte"),
+)
+
+#cvEntry(
   title: [Senior Software Developer],
   society: [Milrem Robotics],
   logo: image("../src/logos/milrem.jpg"),
@@ -16,7 +28,7 @@
   description: list(
     [In charge of THeMIS UGV platform software, mainly generator and motor control],
     [One of the main contributors to design of external interface],
-    [In charge of 8x8 UGV platform high-level systems and CI/CD]
+    [In charge of 8x8 UGV platform high-level systems, vehicle mock and CI/CD]
   ),
   tags: ("C++", "Rust", "ROS2", "Zenoh"),
 )

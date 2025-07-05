@@ -18,19 +18,20 @@
     [Thesis: Term Search in Rust],
     [Courses: Data Mining #hBar() Machine Vision #hBar() Software Verification #hBar() Logical Programming],
   ),
-  tags: ("F#", "R", "Rust", "C", "Prolog")
+  // tags: ("F#", "R", "Rust", "C", "Prolog")
+  tags: ("F#", "R", "Rust", "C", "Prolog", "Python", "Java", "Kotlin", "C#", "Idris2")
 )
 
-#cvEntry(
-  title: [Bachelors of Science in Computer Science],
-  society: [TalTech – Tallinn University of Technology],
-  date: [2018 - 2021],
-  location: [Tallinn, Estonia],
-  logo: image("../src/logos/taltech.jpg"),
-  description: list(
-    [GPA: 5.0/5.0],
-    [Thesis: Development of Time Tracking and Visualization System for Programming],
-    [Courses: Web Systems Development #hBar() Game Development #hBar() Robotics #hBar() Functional Programming],
-  ),
-  tags: ("Python", "Java", "Kotlin", "C#", "Idris2")
-)
+// #cvEntry(
+//   title: [Bachelors of Science in Computer Science],
+//   society: [TalTech – Tallinn University of Technology],
+//   date: [2018 - 2021],
+//   location: [Tallinn, Estonia],
+//   logo: image("../src/logos/taltech.jpg"),
+//   description: list(
+//     [GPA: 5.0/5.0],
+//     [Thesis: Development of Time Tracking and Visualization System for Programming],
+//     [Courses: Web Systems Development #hBar() Game Development #hBar() Robotics #hBar() Functional Programming],
+//   ),
+//   tags: ("Python", "Java", "Kotlin", "C#", "Idris2")
+// )
